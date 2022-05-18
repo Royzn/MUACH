@@ -1,7 +1,7 @@
 import React from "react";
-
+import VenueLayout from "./Venue/TampilanVenue";
 const PageTwo = () => {
-    return <h1>Page Two</h1>;
+    return <VenueLayout />;
 };
 
 export default PageTwo;

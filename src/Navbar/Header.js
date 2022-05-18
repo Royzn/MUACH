@@ -6,6 +6,8 @@ import { AiOutlineClose } from "react-icons/ai";
 import classes from "./Header.module.scss";
 import { Link, useHistory } from "react-router-dom";
 
+import './Header.module.scss'; //test
+
 const Header = () => {
     const history = useHistory();
     const [menuOpen, setMenuOpen] = useState(false);
@@ -40,12 +42,16 @@ const Header = () => {
         menuToggleHandler();
         history.push("/page-cta");
     };
+    const registerClickHandler = () =>{
+        menuToggleHandler();
+        history.push("/page-register");
+    };
 
     return (
         <header className={classes.header}>
             <div className={classes.header__content}>
                 <Link to="/" className={classes.header__content__logo}>
-                    navbar
+                    MUACH
                 </Link>
                 <nav
                     className={`${classes.header__content__nav} ${
@@ -55,21 +61,27 @@ const Header = () => {
                     <ul>
                         <li>
                             <Link to="/page-one" onClick={menuToggleHandler}>
-                                PageOne
+                                Layanan
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-two" onClick={menuToggleHandler}>
-                                PageTwo
+                                Venue
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-three" onClick={menuToggleHandler}>
-                                PageThree
+                                Dress
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/page-four" onClick={menuToggleHandler}>
+                                Contact
                             </Link>
                         </li>
                     </ul>
-                    <button onClick={ctaClickHandler}>CTA Page</button>
+                    <button className={classes.tombolDaftar} onClick={registerClickHandler}>Daftar</button>
+                    <button className={classes.tombolMasuk} onClick={ctaClickHandler}>Masuk</button>
                 </nav>
                 <div className={classes.header__content__toggle}>
                     {!menuOpen ? (
