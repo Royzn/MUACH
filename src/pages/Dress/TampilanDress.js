@@ -1,17 +1,17 @@
 import react, {useState} from "react";
-import ProductsDress from "./ProductsVenue";
+import Products from "./ProductsDress";
 import SearchBar from "../SearchBar";
 import TombolKategori from "../TombolKategori";
 import TombolOffers from "../TombolOffers";
-const VenueLayout = () =>{
+const DressLayout = () =>{
     return (
     <div>
         <TombolKategori />
         <SearchBar />
         <TombolOffers />
-        <ProductsDress />
+        <Products />
     </div>
     )
 };
 
-export default VenueLayout;
+export default DressLayout;

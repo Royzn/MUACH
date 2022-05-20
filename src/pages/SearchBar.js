@@ -1,6 +1,6 @@
 import react from "react";
 // import searchLogo from "../../Assets/Search.png"
-import './VenueModule.scss';
+// import style from './Venue/VenueModule.scss';
 
 const SearchBar = () =>{
 

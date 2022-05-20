@@ -1,10 +1,11 @@
 import React from "react";
-import TombolKategori from "./Venue/TombolKategori"
-import SearchBar from "./Venue/SearchBar";
+import DressLayout from "./Dress/TampilanDress";
+
+import style from './Dress/DressModule.scss';
+
 const PageThree = () => {
     return (<div>
-    <TombolKategori />
-    <SearchBar />
+    <DressLayout />
 </div>
 )
 };

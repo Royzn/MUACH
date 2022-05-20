@@ -1,10 +1,10 @@
 import react from "react";
-import TheProducts from "./data";
+import TheProducts from "./dataDress";
 
 
-function Product (props) {
+function ProductDress (props) {
     return (
-        <div className="productCont">
+        <div className="productContDress">
      
             <img src={props.imageURL} alt="Product"/>
             <h2>{props.id}</h2>
@@ -13,4 +13,4 @@ function Product (props) {
     )
 }
 
-export default Product;
+export default ProductDress;
