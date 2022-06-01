@@ -1,9 +1,5 @@
 @import "./../../styles/variables.scss";
 
-
-
-
-
 //Products Venue
 
 .productContainerVenue{
@@ -11,17 +7,47 @@
   position: relative;
   flex-wrap: wrap;
   margin-top: 20px;
-  left: 50px;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 70px;
 }
 
 
 .productContVenue{
-
+  position:relative;
  display: block;
  padding: 5px;
- margin: 50px 40px;
+ margin: 30px 40px;
+  img{
+    border-radius: 20px;
+  }
+}
+
+.smallSq{
+  position: absolute;
+  width: 74px;
+  height: 23px;
+  background-color: $indoorLabel;
+  border-radius: 100px;
+  left: 24px;
+  bottom: 115px;
+
+  p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.Desc{
+  position: relative;
+  padding-top: 18px;
+
+  p{
+    font-weight: 600;
+    color: $fontt;
+  }
 }
 
 
