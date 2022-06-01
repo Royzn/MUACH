@@ -1,0 +1,55 @@
+@import "./../styles/variables.scss";
+
+//Search bar
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  
+  }
+  
+  .searchBar {
+    position: absolute;
+    width: 504px;
+    height: 62px;
+    left: 550px;
+    top: 8.125rem;
+    font-size: 1.125rem;
+    font-family: $Poppins;
+    border-radius: 12px;
+    border: 0;
+    text-indent: 25px;
+    filter: drop-shadow(0px 14px 44px rgba(0, 0, 0, 0.07));
+  }
+  
+  input[type=text]::placeholder {
+  
+    padding-left: 10px;
+  }
+  
+  .searchButton {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 996px;
+    top: 8.5rem;
+    background-image: url(../Assets/searchIcon.png);
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    border: 0;
+    display: inline-block;
+    
+  }
+  
+  .searchButton:hover{
+    // background-color: $primary;
+    cursor: pointer;
+    box-shadow: 0 0 9px rgba(33,33,33,.2); 
+  }

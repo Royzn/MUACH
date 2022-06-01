@@ -1,0 +1,28 @@
+@import "./../styles/variables.scss";
+//Offers
+.Offers {
+    position: absolute;
+    width: 33.67rem;
+    height: 41px;
+    left: 114px;
+    top: 270px;
+  
+  
+  }
+  
+  .Offers button {
+    font-family: $Poppins;
+    font-size: 1.1rem;
+    background: $bg;
+    border: none;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    color: $fontt;
+  
+  }
+  
+  .Offers button:hover {
+    color: $primary;
+    cursor: pointer;
+    transition: all 0.5s;
+  }

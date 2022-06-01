@@ -1,5 +1,6 @@
 import react from "react";
-// import style from './Venue/VenueModule.scss';
+import style from './TombolOffersmodule.scss';
+
 const TombolOffers = () => {
  
     return(

@@ -1,112 +1,8 @@
 @import "./../../styles/variables.scss";
 
-//tombol kategori
-.dropdown {
-  position: absolute;
-  display: inline-block;
 
 
-  left: 18.75rem;
-  top: 8.125rem;
-}
 
-.buttonKategori {
-  font-family: $Poppins;
-  font-size: 1.125rem;
-  width: 140px;
-  height: 62px;
-  border-radius: 12px;
-  border: 0;
-  background-color: white;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 360px; // ukuran background si dropdown
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-
-}
-
-//Search bar
-
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-
-}
-
-.searchBar {
-  position: absolute;
-  width: 504px;
-  height: 62px;
-  left: 550px;
-  top: 8.125rem;
-  font-size: 1.125rem;
-  font-family: $Poppins;
-  border-radius: 12px;
-  border: 0;
-  text-indent: 25px;
-  filter: drop-shadow(0px 14px 44px rgba(0, 0, 0, 0.07));
-}
-
-input[type=text]::placeholder {
-
-  padding-left: 10px;
-}
-
-.searchButton {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  left: 996px;
-  top: 8.5rem;
-  background-image: url(../../Assets/Search.png);
-  background-repeat: no-repeat;
-  border-radius: 6px;
-  border: 0;
-  display: inline-block;
-}
-
-//Offers
-.Offers {
-  position: absolute;
-  width: 33.67rem;
-  height: 41px;
-  left: 114px;
-  top: 270px;
-
-
-}
-
-.Offers button {
-  font-family: $Poppins;
-  font-size: 1.1rem;
-  background: $bg;
-  border: none;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  color: $fontt;
-
-}
-
-.Offers button:hover {
-  color: $primary;
-  cursor: pointer;
-  transition: all 0.5s;
-}
 
 //Products Venue
 
@@ -128,8 +24,5 @@ input[type=text]::placeholder {
  margin: 50px 40px;
 }
 
-// .Layout_container__fDVAe{
-
-// }
 
 
